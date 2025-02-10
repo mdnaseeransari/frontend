@@ -1,0 +1,353 @@
+<!--In this html we will learn css-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="style.css" >
+    <style>
+        button{
+            color: blue;
+        }
+    </style>
+
+</head>
+<body>
+    <main>
+
+<!--this section is for practicing selectors css-->
+        <section>
+            <div id="box">this section is for practicing selectors css</div>
+            
+                <div><h1 class="heading">for practice of class</h1>
+                    <h2 class="heading">for practice of class</h2>
+                    <h3 class="heading">for practice of class</h3>
+                </div>
+            <div>
+                <button style="color: pink;">button</button>
+            </div>
+            
+        </section>
+<br>
+<hr><br>
+
+
+
+
+
+
+<!--this section is for practicing text css-->
+        <section>
+            <div>
+                <h1 id="align">this section is for practicing text css</h1>
+            </div>
+
+            <div id="outer">outer
+                <div id="inner">
+                    inner
+                </div>
+            </div>
+        </section>
+
+
+
+    </main>
+
+    <br><hr><br>
+
+
+
+
+
+
+    <header><!--header should be above the main tag but since we are practing it in order-->
+    <!--this is the practice for box model css-->
+    <section>
+        <h1>this is the practice for box model css</h1>
+        <br><br>
+        <div class="box-model"></div>
+        <br><br>
+
+        <div class="navbar">
+            <a id="text">amazon.in
+                <a>Account</a>
+                <a>My Cart</a>
+                <a>Contact Us</a>
+                
+            </a>
+            <input type="search" placeholder="search Amazon.in">
+            <button class="button">Search</button>
+
+        </div>
+    </section>
+</header>
+<br><hr><br>
+
+
+
+
+
+
+<main><!--since we are practincing in order. i have taken another main-->
+    <!--you might not be able to see the change inpect because of the size and all this in together you can chek it differently-->
+
+    <section><!--this is the practice for display css-->
+        <h1>this is the practice for display css </h1><br>
+        <div class="display-inline">This is div which takes whole width. but we have used display inline which make it occupy space acc. to the text</div><br>
+        <br>button will not show that it has taken the full width but if you inspect then you can see the change <br><br>
+        <button class="display-block">this button which is a inline tag</button>
+        <br><br>
+
+        <p>inline display is for box. it will only take that much space which is required. if we create the box in div it will take full width.</p>
+
+        <br><br>
+        <div class="without-inline">box 1 without inline effect</div>
+        <br><br><br>
+        <div class="with-inline1">box 2 with inline effect without padding and margin </div><br><br><br><br><br><br>
+        <div class="with-inline2">box 3 with inline effect with padding and margin</div>
+        <br><br><br>
+        <div class="with-inline-block">box 4 with <b>inline-block</b> effect with padding and margin on top and bottom also</div>
+<br><br>
+        
+        <h3>this is rgba effect</h3>
+        <div class="rgba">box5 with rgba effect</div>
+        <br><pre>
+            Visibility Property
+            The visibility property controls whether an element is visible or hidden in the document.
+            Important Note:
+            •	visibility: hidden;: The element is invisible, but the space it occupies is still reserved.
+            •	display: none;: The element is removed from the document flow, and no space is reserved for it.
+            Syntax:
+            <b>visibility: hidden;</b> 
+            </pre>
+    </section>
+
+
+
+
+
+
+
+
+
+    <br><hr><br>
+    <section>
+    <h1>this is relative units of css</h1><br>
+<pre>
+    Percentage (%):( in short it take space of the parents’ size.)
+    Defines size relative to the parent or other properties.
+    Parent and child example:
+    div style="width: 100%; height: 200px; background: lightgray;"
+    h1 style="width: 50%; height: 50%; background: lightblue;" 
+    ________________________________________ 
+
+    Em:( in short it multiplies to the parents’ size but it multiplies to font-size of itself and with parents’ if width is taken in “em”.)
+    Relative to the element's font size.
+    Example with padding and font-size: 
+
+    div style="font-size: 20px; padding: 1em; border: 1px solid black;"
+    p style="font-size: 0.5em;" Font size is half of parent /p
+   
+    ________________________________________
+        
+    Rem:(it multiplies with default value of html text root without any style.)
+    Relative to the root font size.
+    ________________________________________
+    vh and vw
+    Relative to viewport size.
+    Example:
+    div style="width: 50vw; height: 50vh; background: lightgreen;"
+    50% viewport width and height
+    
+
+
+
+
+
+
+
+
+    </pre><br><hr><br>
+
+    <h1>this is the practice for position and background-image css</h1>
+    <br><h2>you need to use top, bottom, right, left to take effect for fixed and sticky</h2>
+    <br>
+    <div class="static">static position which means default position. 
+        Default, no effect from top, right, bottom, left and z-index.</div>
+    <div class="relative">relative: Positioned relative to itself (default position).</div>
+    <div class="absolute">absolute: Positioned relative to the nearest ancestor.</div>
+    <div class="fixed">fixed: Positioned relative to the browser. 
+        (is mostly used for header with top:0px; or footer with bottom:0px;)</div>
+    <div class="sticky">5.	sticky: Based on user’s scroll.</div>
+
+    <br><br><h3 id="z">z-index:which box will come above and which will on the bottom : which is coded first it will be below </h3>
+        <br>
+    <div class="z-index">first box should be below but to z-index</div>
+    <div class="z-index1">second box should be above but due to z-index</div>
+
+    <br><br><br><h3>background-image</h3>
+    <div class="background-image1">cover property</div>
+    <div class="background-image2">contain property</div>
+    <div class="background-image3">auto property</div>
+    <div class="background-image4">contain property with no repeat</div>
+
+    <br><br> </section>
+    
+
+
+
+
+
+
+
+
+    <section>
+        <hr><br>
+        <h1>this is the practice of flexbox</h1>
+        <br><br>
+
+<h2>row properties</h2><br>
+        <!-- row properties of flex -->
+        <div id="flex">
+        <div class="container1">
+            <div class="flexbox1">box1</div>
+            <div class="flexbox2">box2</div>
+            <div class="flexbox3">box3</div>
+            <div class="flexbox4">box4</div>
+            <div class="flexbox5">box5</div>
+            
+        </div></div>
+
+        <br>
+        <div id="flex">
+            <div class="container2">
+                <div class="flexbox1">box1</div>
+                <div class="flexbox2">box2</div>
+                <div class="flexbox3">box3</div>
+                <div class="flexbox4">box4</div>
+                <div class="flexbox5">box5</div>
+        </div></div>
+<br>
+        <h2>column properties</h2>
+
+<br><br>
+
+        <!-- column properties of flex -->
+        <div id="flex">
+            <div class="container3">
+                <div class="flexbox1">box1</div>
+                <div class="flexbox2">box2</div>
+                <div class="flexbox3">box3</div>
+                <div class="flexbox4">box4</div>
+                <div class="flexbox5">box5</div>
+                
+            </div></div>
+    
+            <br>
+          <div id="flex">
+                <div class="container4">
+                    <div class="flexbox1">box1</div>
+                    <div class="flexbox2">box2</div>
+                    <div class="flexbox3">box3</div>
+                    <div class="flexbox4">box4</div>
+                    <div class="flexbox5">box5</div>
+            </div></div>
+
+            <br>
+            <h2>align item and align content properties</h2>
+    
+    <br><br>
+    <h2>gird properties</h2>
+    <div class="grid-container">
+        <div class="grid-item">item1</div>
+        <div class="grid-item">item2</div>
+        <div class="grid-item">item3</div>
+        <div class="grid-item">item4</div>
+        <div class="grid-item">item5</div>
+        <div class="grid-item">item6</div>
+    </div>
+
+<br><br>
+
+            <!-- align item and align content properties -->
+            <div id="flex">
+                <div class="container5">
+                    <div class="flexbox1">box1</div>
+                    <div class="flexbox2">box2</div>
+                    <div class="flexbox">box3</div>
+                    <div class="flexbox4">box4</div>
+                    <div class="flexbox5">box5</div>
+                    
+                </div></div>
+
+                <br><br>
+                <!-- this is the section for main axis and vertical axis center  -->
+                <h2>css for center</h2><br>
+                <div class="outer">
+                    <div class="inner"></div>
+                </div>
+
+                <br><br><hr><br><br>
+
+
+
+
+
+                <!-- this section is for media queries -->
+                <section>
+                <h2>Media Queries</h2>
+                <h2>changes will occur when you will change the width of webpage from inspect</h2>
+        <br><br>
+
+        <div class="media">color will change into red when width cross the 600 .</div>
+
+               
+    </section>
+
+
+
+    <!-- this section is for transition -->
+
+        <section>
+            <br><hr><br><br>
+            <h2>this section is for transition , transform , scale , translate(move) and skew(make rhombus like structure )</h2>
+
+            <br><br>
+            
+            <div class="hover-effect">when mouse is above it</div>
+            <div class="active-effect">active when click</div>
+            <div class="transition">property name | duration | timing-function | delay </div>
+            <div class="transform">rotate, scale: changes the size</div>
+            <div class="translate">move and skew structure</div>
+            <br><br><br><br><br><br><br>
+            <br> <br><h2>animation a better way of using transition</h2>
+            <br><br><br><br><br><br>
+            
+            <div class="animation"></div>
+
+        </section>
+
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        
+        <hr>
+        <section>
+            <br><br><br>
+            <br><br><br>
+
+            <div class="loader"></div>
+            
+        </section>
+
+
+        <br><br><br><br>
+        <br><br><br><br>
+        <br><br><br><br>
+    
+
+
+    
+</main>
+
+</body>
+</html>

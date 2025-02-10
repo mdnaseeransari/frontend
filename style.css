@@ -1,0 +1,682 @@
+/*practice for selector css*/
+
+#box{/* for id*/
+    background-color: blue;
+    color:white;
+}
+
+.heading{
+    color: red;
+}
+/*
+different way of doing it above heading one
+
+h1, h2, h3 {
+    color: red;
+}
+*/
+
+button{
+    color: green;
+}
+
+
+
+
+
+
+
+
+
+
+/*practice for text css*/
+
+#align{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: lighter;
+    text-decoration: underline;
+}
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;/* this is for occupying corner space if you remove margin and padding you will
+                  this for navbar also for occupying the left and right side fully  */
+   
+    
+    
+}
+
+#outer{
+    font-size: 25px;
+    line-height: 10px;
+    
+}
+#inner{
+    font-size: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/*practice for box model css*/
+
+.box-model{
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    
+}
+
+/* navbar csss*/
+.navbar{
+    background-color: black;
+    border: 10px solid green;
+    height: 60px;
+    
+
+}
+
+#text{
+    color:orange;
+    font-size: 25px;
+}
+
+a{
+    font-size: 25px;
+    color: white;
+    margin-right: 200px;
+}
+
+.button{
+    background-color: orange;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*practice for display css*/
+
+.display-inline{
+    background-color: chocolate;
+    display: inline;
+}
+
+.display-block{
+    background-color: crimson;
+    display: block;
+    color: white;
+}
+
+.without-inline{
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+}
+
+.with-inline1{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    display: inline;
+}
+
+.with-inline2{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    display: inline;
+    margin: 50px;
+    padding: 50px ;
+}
+
+.with-inline-block{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin: 50px;
+    padding: 50px ;
+    color:white;
+}
+
+.rgba{
+    background-color:rgba(0,0,244,0.6);
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin: 50px;
+    padding: 50px ;
+    color:white;
+    
+}
+
+
+
+
+
+
+
+
+/* posittion  */
+.static{
+    border: 2px solid black;
+    display: inline-block;
+    background-color: brown;
+    color: white;
+    height: 200px;
+    width: 200px;
+    text-align:center;
+    position: static;
+}
+
+.relative{
+    border: 2px solid black;
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    height: 200px;
+    width: 200px;
+    text-align:center;
+    position: relative;
+}
+
+/* in absolute the height and the width is according to the size of the parent */
+.absolute{
+    border: 2px solid black;
+    display: inline-block;
+    background-color: green;
+    color: white;
+    height: 200px;
+    width: 200px;
+    text-align:center;
+    position: absolute;
+}
+
+.fixed{
+    border: 2px solid black;
+    display: inline-block;
+    background-color:greenyellow;
+    color: blueviolet;
+    height: 200px;
+    width: 200px;
+    text-align:center;
+    position: fixed;
+    top:0px;
+    right: 0px;
+}
+
+.sticky{
+    border: 2px solid black;
+    display: inline-block;
+    background-color:pink;
+    color: white;
+    height: 200px;
+    width: 200px;
+    text-align:center;
+    position: sticky;
+    top: 0px;
+    
+    
+}
+
+
+
+
+
+
+/* z-index */
+
+#z{
+    text-align: center;
+}
+
+.z-index{
+    border: 2px solid black;
+    display: inline-block;
+    background-color:rgba(0,0,244,0.6);
+    color: white;
+    height: 200px;
+    width: 200px;
+    text-align:center;
+    position: relative;
+    left: 0px;
+    z-index: 1;
+    
+    
+}
+.z-index1{
+    border: 2px solid black;
+    display: inline-block;
+    background-color:green;
+    color: white;
+    height: 200px;
+    width: 200px;
+    text-align:justify;
+    position: relative;
+    left: -30px;
+  
+}
+
+
+/* background image */
+
+.background-image1{
+    
+        border: 2px solid black;
+        display:inline-block;
+        color:white;
+        height: 200px;
+        width: 200px;
+        text-align:justify;
+        position: relative;
+        background-image: url(image.png);      
+        background-size: cover;
+    
+}
+
+.background-image2{
+    
+    border: 2px solid black;
+    display:inline-block;
+    color:white;
+    height: 200px;
+    width: 200px;
+    text-align:justify;
+    position: relative;
+    background-image: url(image.png);      
+    background-size: contain;
+
+}
+.background-image3{
+    
+    border: 2px solid black;
+    display:inline-block;
+    color:white;
+    height: 200px;
+    width: 200px;
+    text-align:justify;
+    position: relative;
+    background-image: url(image.png);      
+    background-size: cover;
+
+}
+
+.background-image4{
+    
+    border: 2px solid black;
+    display:inline-block;
+    color:white;
+    height: 200px;
+    width: 200px;
+    text-align:center;
+    position: relative;
+    background-image: url(image.png);      
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+
+
+
+
+/* this is the practice for flexbox */
+
+#flex{
+    text-align: center;
+    
+}
+/* containter 1 and 2 will show row properties */
+.container1{
+    border: 2px solid black;
+    height: 200px;
+    width: 600px;
+    display: inline-block;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.container2{
+    border: 2px solid black;
+    height: 200px;
+    width: 600px;
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+/* container 3 and 4 will show columne properties */
+
+.container3{
+    border: 2px solid black;
+    height: 200px;
+    width: 600px;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.container4{
+    border: 2px solid black;
+    height: 200px;
+    width: 600px;
+    display: inline-block;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: end;
+}
+
+/* this is the ony flexbox in in align item and content */
+
+.container5{
+    border: 2px solid black;
+    height: 500px;
+    width: 200px;
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    /* align-content: center; */
+}
+
+/* this is the ony flexbox in in align item and content */
+.flexbox{
+    border: 2px solid black;
+    height: 100px;
+    width: 80px;
+    text-align: center;
+    /* display: flexbox; */
+    background-color:red;
+    display: inline-block;
+    align-self: end;
+}
+/* rest of them are same */
+.flexbox1{
+    border: 2px solid black;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    /* display: flexbox; */
+    background-color:aqua;
+    display: inline-block;
+}
+
+.flexbox2{
+    border: 2px solid black;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    /* display: flexbox; */
+    background-color: brown;
+    display: inline-block;
+}
+
+.flexbox3{
+    border: 2px solid black;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    /* display: flexbox; */
+    background-color: red;
+    display: inline-block;
+}
+
+.flexbox4{
+    border: 2px solid black;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    /* display: flexbox; */
+    background-color: green;
+    display: inline-block;
+}
+
+.flexbox5{
+    border: 2px solid black;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    /* display: flexbox; */
+    background-color: pink;
+    display: inline-block;
+}
+
+
+/* for grid properties */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px 300px 100px;
+    grid-template-rows: 50px 50px;
+    gap: 10px;
+    background-color: brown;
+    padding: 10px;
+    
+}
+
+.grid-item{
+    display: flex;
+    background-color: aquamarine;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+/* flexbox center (0,0) */
+
+.outer{
+    height: 300px;
+    width: 300px;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    
+}
+
+
+
+
+
+
+/* this section is for media queries */
+
+.media{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    color: white;
+
+}
+
+@media (max-width:600px) {
+    .media{
+        background-color: red;
+    }
+}
+
+
+
+
+
+/* this section is for transition */
+
+.hover-effect{
+    color:white;
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.hover-effect:hover{
+    background-color: rgb(204, 16, 210);
+}
+
+.active-effect{
+    color:white;
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    
+
+}
+
+.active-effect:active{
+    background-color: rgb(204, 16, 210);
+}
+
+
+.transition{
+    color:white;
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    transition: all 2s ease-in-out 0.2s;   
+    position: absolute;
+    left: 300px;
+}
+
+.transition:hover{
+    background-color: rgb(204, 16, 210);
+    font-size: 20px;
+    width: 300px;
+    height: 100px;
+}
+
+.transform{
+    color:white;
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    rotate:  15deg;
+    transform: scale(0.9);
+    position: absolute;
+    left: 600px;
+}
+
+.translate{
+    color:white;
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    left: 880px;
+    transition: all 2s;
+}
+
+.translate:hover{
+    transform: translatex(100px) rotatez(45deg) skew(20deg);
+ /* here the axis has changed i don't know why at y it doesnot change*/
+}
+
+
+.animation{
+    height: 300px;
+    width: 300px;
+    border: 1px soild black;
+    border-radius: 100%;
+    background-color: aquamarine;
+    animation: animations 10s ease-in 1s infinite normal;
+    display: inline-block;
+    position: absolute; /*if you don't put any value in position then it will be static and it will not move*/
+}
+
+@keyframes animations{
+    from{
+        background-color: red;
+        left: 0px;
+    }
+    to{
+        background-color: aquamarine;
+        left: 600px;
+    }
+}
+
+/* 
+@keyframes myName { 
+    0% { font-size: 20px; }
+    50% { font-size: 30px; } 
+    100% { font-size: 40px; }
+ }
+ */
+
+ .loader{
+    border: 15px solid lightblue;
+    border-top: 15px solid aqua;
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    margin-left: 700px;
+    animation: spin 2s ease-in-out 0s infinite normal;
+    
+ }
+
+
+ @keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg);
+    }
+ }

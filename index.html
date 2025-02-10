@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+<body>
+    <header>
+        <img src="o.jpg" alt="Banner" width="100%" height="150">
+        <nav align="center"><h1>
+            <a href="#home">Home</a> |
+            <a href="#video">Video</a> |
+            <a href="#list">List</a> |
+            <a href="#table">Table</a> |
+            <a href="#contact">Contact</a></h1>
+        </nav>
+    </header>
+    <br><hr>
+    
+    <main>
+        <section id="home">
+            <h1 align="center">Home</h1>
+            <p><b>Welcome to our website! This is the home section.</b></p>
+
+            Lorem Ipsum Placeholder:
+
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet dictum lorem. Suspendisse vitae purus eget mi ullamcorper convallis. Cras nec lectus sed ex sollicitudin malesuada nec ac turpis. Proin volutpat, justo nec dapibus molestie, enim felis vehicula tortor, eget interdum sapien lacus non risus. Integer accumsan arcu id turpis pharetra, vel dignissim nunc hendrerit. Sed vitae nulla id quam tincidunt efficitur nec vel lorem. Etiam in tortor ut metus aliquam faucibus. Ut scelerisque felis nec ligula sodales, in consequat tortor blandit.
+            <br><br>
+            Would you like a longer version or something formatted differently?
+        </section>
+
+        <br><hr>
+
+        <section id="video">
+            <h1 align="center">Video</h1>
+            <p align="center"><b>This section is about videos.</b></p><br>
+            <div align="center">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/5lzoxHSn0C0?si=mpMXEACKrkUIbXPS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>My Video</iframe>
+            <video src="video.mp4" width="560" height="315" autoplay muted controls>My Video</video>
+            </div>
+
+        </section>
+
+        <br><hr>
+
+        <section id="list">
+            <h1 align="center">List</h1>
+
+            <h3>Unordered List</h3>
+            <ul type=square>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+
+            <ul type=circle>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+
+            <h3>Unordered List</h3>
+            <ol type="1">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ol>
+
+            <ol type="I">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ol>
+        </section>
+
+        <br><hr>
+
+        <section id="table">
+            <br>
+            <table border="1" align="center" cellspacing="5" cellpadding="10">
+                <tr>
+                    <th colspan="3">Table</th>
+                </tr>
+                <tr>
+                    
+                    <th>Header 1</th>
+                    <th>Header 2</th>
+                    <th>Header 3</th>
+                </tr>
+                <tr>
+                    <td>Data 1</td>
+                    <td>Data 2</td>
+                    <td>Data 3</td>
+                </tr>
+                <tr>
+                    <td>Data 4</td>
+                    <td>Data 5</td>
+                    <td>Data 6</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <br><hr>
+
+    <footer>
+        <section id="contact">
+            <h1 align="center">Contact</h1>
+            <form action="#" method="post" align="center">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Name" required><br><br>
+                
+                <label for="email" >Email:</label>
+                <input type="email" id="email" name="email" placeholder="Email" required><br><br>
+
+                <label for="password" >Password</label>
+                <input type="password" placeholder="Password" name="password" id="password" required><br><br>
+
+                <label for="choice">Gender</label>
+                <input type="radio" name="choice" id="choice">Male
+                <input type="radio" name="choice" id="choice">Female <br><br>
+
+                <label for="check">check box</label>
+                <input type="checkbox" name="check" id="check">choice 1
+                <input type="checkbox" name="check" id="check">choice 2
+                <input type="checkbox" name="check" id="check">choice 3 <br><br>
+
+                <label for="drop">select</label>
+                <select name="drop" id="drop">
+                    <option value="drop">moon</option>
+                    <option value="drop">earth</option>
+                    <option value="drop">mars</option>
+                </select><br><br>
+
+                <label for="file">File Upload</label>
+                <input type="file" name="file" id="file" required><br><br>
+
+                
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                
+                <input type="submit" value="Submit" >
+                <input type="reset" value="Reset" >
+            </form>
+        </section>
+    </footer>
+</body>
+</html>
